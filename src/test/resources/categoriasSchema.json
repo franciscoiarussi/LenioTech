@@ -1,0 +1,14 @@
+{
+  "type": "array",
+  "items": {
+    "properties": {
+      "idCategoria": {
+        "type": "number"
+      },
+      "nombre": {
+        "type": "string"
+      }
+    },
+    "required": ["idCategoria", "nombre"]
+  }
+}

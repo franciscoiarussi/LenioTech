@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 31.117 sec <<< FAILURE! - in TestSuite
+testCheckoutFail(tests.CheckoutTest)  Time elapsed: 1.128 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Finish] but found [CHECKOUT: COMPLETE!]
+	at tests.CheckoutTest.testCheckoutFail(CheckoutTest.java:42)
+
+testLocalidades(backend.tests.CategoriaTest)  Time elapsed: 1.266 sec  <<< FAILURE!
+java.lang.AssertionError: expected [27] but found [28]
+	at backend.tests.CategoriaTest.testLocalidades(CategoriaTest.java:56)
+

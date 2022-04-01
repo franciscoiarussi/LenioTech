@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Challenge]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Lenio Challenge(failed)" verbose="0">
+    <classes>
+      <class name="backend.tests.CategoriaTest">
+        <methods>
+          <include name="testLocalidades"/>
+        </methods>
+      </class> <!-- backend.tests.CategoriaTest -->
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="goToLogin"/>
+          <include name="testCheckoutFail"/>
+          <include name="tearDownBrowser"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+    </classes>
+  </test> <!-- Lenio Challenge(failed) -->
+</suite> <!-- Failed suite [Challenge] -->

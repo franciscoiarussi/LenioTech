@@ -1,0 +1,12 @@
+pages/CartPage.class
+pages/HomePage.class
+pages/CheckoutCompletePage.class
+pages/CheckoutOverviewPage.class
+tests/BaseTest.class
+infrastructure/BasePage.class
+infrastructure/DriverManager.class
+pages/CheckoutInformationPage.class
+tests/LoginTest.class
+utils/TestProperties.class
+tests/CheckoutTest.class
+pages/LoginPage.class

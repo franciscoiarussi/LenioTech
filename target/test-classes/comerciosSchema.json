@@ -1,0 +1,50 @@
+{
+  "type": "array",
+  "items": {
+    "properties": {
+      "idComercio": {
+        "type": "number"
+      },
+      "nombre": {
+        "type": "string"
+      },
+      "direccion": {
+        "type": "string"
+      },
+      "localidad": {
+        "type": "string"
+      },
+      "telefono": {
+        "type": "string"
+      },
+      "calificacion": {
+        "type": "number"
+      },
+      "logo": {
+        "type": "string"
+      },
+      "descripcion": {
+        "type": "string"
+      },
+      "usuario": {
+        "type": ["null", "string"]
+      },
+      "categorias": {
+        "type": ["null", "string"]
+      },
+      "costoEnvio": {
+        "type": "number"
+      },
+      "horario": {
+        "type": ["null", "string"]
+      },
+      "diasAbierto": {
+        "type": ["null", "string"]
+      },
+      "promCalificacion": {
+        "type": "number"
+      }
+    },
+    "required": ["idComercio", "nombre", "direccion", "localidad", "telefono", "calificacion", "logo", "descripcion", "usuario", "categorias", "costoEnvio", "horario", "diasAbierto", "promCalificacion"]
+  }
+}

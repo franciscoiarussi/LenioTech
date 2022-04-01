@@ -1,0 +1,14 @@
+{
+  "type": "array",
+  "items": {
+    "properties": {
+      "idLocalidad": {
+        "type": "number"
+      },
+      "nombre": {
+        "type": "string"
+      }
+    },
+    "required": ["idLocalidad", "nombre"]
+  }
+}
